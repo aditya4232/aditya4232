@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on DRDO PROJECT [ IOD SYSTEM ]<br>👯 I’m looking to collaborate on AI Web Crawling agent<br>🤝 I’m looking for help with Cloud Archiecture <br>🌱 I’m currently learning Full Stack<br>
+🔭 worked on DRDO PROJECT  [ IOD SYSTEM ]<br>👯 I’m looking to collaborate on AI Web Crawling agent<br>🤝 I’m looking for help with Cloud Archiecture <br>🌱 I’m currently learning Full Stack<br>
 
 
 ## 🌐 Socials:
