@@ -1,24 +1,24 @@
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&height=80&lines=Initializing+AI+Subsystems...;Deploying+Cloud+Architecture...;Building+Intelligent+Systems...;Aditya+Shenvi+%7C+AI+%26+Full-Stack;" alt="Typing SVG" />
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&height=80&lines=Initializing+subsystems...;Parsing+profile_data...;Aditya+Shenvi+|+AI+%26+Full-Stack;Welcome+to+my+workspace;" alt="Typing SVG" />
+</p>
 
-<div align="center">
+<p align="center">
   <a href="https://linkedin.com/in/adityashenvi" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://adityacuz.dev" target="_blank"><img src="https://img.shields.io/badge/Portfolio-252525?style=for-the-badge&logo=mac-os&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:adityashenvi2050@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</div>
+</p>
 
 <br>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aditya4232&show_icons=true&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&hide_border=true&border_radius=4" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aditya4232&fire=58A6FF&ring=58A6FF&currStreakLabel=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&sideLabels=C9D1D9&dates=C9D1D9&background=0D1117&hide_border=true&border_radius=4" alt="GitHub Streak" width="48%" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aditya4232&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aditya4232&theme=radical&hide_border=true" alt="GitHub Streak" />
+</p>
 
-<div align="center" style="margin-top: 10px;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aditya4232&layout=compact&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117&hide_border=true&border_radius=4&langs_count=8" alt="Top Langs" width="48%" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aditya4232&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" width="48%" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aditya4232&layout=compact&theme=radical&hide_border=true&langs_count=6" alt="Top Langs" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aditya4232&theme=react-dark&hide_border=true" alt="Activity Graph" />
+</p>
 
 <br>
 
@@ -52,7 +52,7 @@
 ### // CORE.MODULES
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,ts,react,nextjs,nodejs,fastapi,flask,html,css,tailwind,aws,gcp,docker,kubernetes,linux,git,github,sqlite,mongodb,postgres,postgres,firebase&theme=dark&perline=12" />
+  <img src="https://skillicons.dev/icons?i=py,js,ts,react,nextjs,nodejs,fastapi,flask,html,css,tailwind,aws,gcp,docker,kubernetes,linux,git,github,sqlite,mongodb,postgres,firebase&theme=dark&perline=12" />
 </div>
 
 <br>
