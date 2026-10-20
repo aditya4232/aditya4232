@@ -1,155 +1,121 @@
+<!-- Profile content refreshed from the October 2026 resume. -->
 <p align="center">
-  <img
-    src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&height=80&lines=Initializing+subsystems...;Parsing+profile_data...;Aditya+Shenvi+%7C+AI+%26+Full-Stack;Building+agents,+RAG,+and+cloud-native+systems"
-    alt="Typing SVG"
-  />
+  <img src="./assets/neural-core.svg" width="1200" alt="Aditya Shenvi — AI/ML and Cloud Engineer. Animated neural network; Junior AI Cloud Engineer at InnovyQ, Hyderabad." />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/adityashenvi" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://adityacuz.dev" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Portfolio-252525?style=for-the-badge&logo=mac-os&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="mailto:adityashenvi2050@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  <a href="https://linkedin.com/in/adityashenvi"><img src="https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect on LinkedIn" /></a>
+  <a href="https://adityacuz.dev"><img src="https://img.shields.io/badge/Portfolio-EXPLORE-0891B2?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Explore my portfolio" /></a>
+  <a href="mailto:adityashenvi2050@gmail.com"><img src="https://img.shields.io/badge/Email-SAY_HELLO-7C3AED?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Aditya" /></a>
 </p>
 
----
+<p align="center"><b>I build LLM applications that retrieve knowledge, use tools, and connect to real workflows.</b><br/>Python at the core. FastAPI at the boundary. AWS in the cloud.</p>
 
-## // SYS.CONFIG
+## `01` / The engineer behind the terminal
 
-```json
-{
-  "developer": "Aditya Shenvi",
-  "current_role": "AI Intern",
-  "focus": ["AI Agents", "RAG", "Microservices", "Serverless"],
-  "location": "Hyderabad, India",
-  "education": "B.Tech CSE — ICFAI Foundation"
+I'm **Aditya**, an **AI/ML & Cloud Engineer** based in **Hyderabad, India**. At **InnovyQ**, I work on AI-powered features, authenticated serverless APIs, and enterprise knowledge-source integrations. Previously, I built document-grounded AI at **ScriptBees** and an offline-capable operations dashboard at **DRDO**.
+
+My work spans the full path from **chunking and embeddings** to **agent orchestration**, **streaming APIs**, and **deployment troubleshooting**. I also build in the open: local agents, text-to-app experiments, and accessible model fine-tuning.
+
+```python
+# My engineering map — areas I work across, not a runnable SDK.
+aditya = {
+    "now":      "Junior AI Cloud Engineer @ InnovyQ",
+    "ai":       ["RAG", "tool calling", "structured outputs", "agent workflows"],
+    "cloud":    ["AWS serverless", "event-driven ingestion", "OAuth 2.0 / JWT"],
+    "building": "useful intelligence, connected to real systems",
 }
 ```
 
-## // SNAPSHOT
+## `02` / From source to signal
 
-- Building autonomous AI agents + LLM integrations for scalable environments
-- Full-stack experience across React/Next.js, Node/FastAPI, and cloud-native tooling
-- Interested in practical LLM systems: retrieval, orchestration, evals, and deployment
+```mermaid
+flowchart LR
+    A[Documents & enterprise sources] --> B[Ingest & chunk]
+    B --> C[Embeddings & retrieval]
+    C --> D[LLM & agent orchestration]
+    D --> E[Source-cited answers & tool actions]
+    F[Authentication & access controls] -.-> A
+    F -.-> D
+    D -.-> G[Evaluation & observability]
+    style A fill:#0d1526,stroke:#38bdf8,color:#e2e8f0
+    style B fill:#0d1526,stroke:#38bdf8,color:#e2e8f0
+    style C fill:#0d1526,stroke:#a78bfa,color:#e2e8f0
+    style D fill:#17203b,stroke:#a78bfa,color:#e2e8f0
+    style E fill:#0d2527,stroke:#34d399,color:#e2e8f0
+    style F fill:#0d1526,stroke:#64748b,color:#cbd5e1
+    style G fill:#0d1526,stroke:#64748b,color:#cbd5e1
+```
 
----
+*The systems I enjoy building: grounded retrieval, deliberate tool use, and observable cloud services.*
 
-## // METRICS (optional)
+## `03` / Selected builds
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=aditya4232&show_icons=true&theme=radical&hide_border=true"
-    height="165"
-    alt="GitHub Stats"
-  />
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=aditya4232&theme=radical&hide_border=true"
-    height="165"
-    alt="GitHub Streak"
-  />
-</p>
+| Project | What I built | Engineering focus |
+| :--- | :--- | :--- |
+| **[ALD-01](https://github.com/aditya4232/ALD-01)** | Local AI agent system with **5 specialized agents**, **10+ LLM integrations**, provider failover, and a streaming dashboard. Published on npm and PyPI. | `Python` `FastAPI` `Ollama` `LangChain` |
+| **[CodeGenesis](https://github.com/aditya4232/CodeGenesis)** | Multi-agent text-to-app platform that generates full-stack application code from natural-language prompts. | `LangChain` `LangGraph` `OpenRouter` `FastAPI` |
+| **[FineTuneLite](https://github.com/aditya4232/FineTuneLite)** | Local fine-tuning studio for **small language models**, with CPU-based PEFT/LoRA training and chat. | `Python` `PEFT` `LoRA` `Transformers` |
+| **[Intelligent Document System](https://github.com/aditya4232/Intelligent-document-system)** | Document Q&A for consulting and staffing workflows, with source citations and confidence scores. | `RAG` `Embeddings` `Document Q&A` |
+| **[DYSC-Agent](https://github.com/aditya4232/DYSC-Agent)** | Security analysis CLI combining static analysis, AI-assisted fix suggestions, and an interactive tool-calling REPL. | `Node.js` `CLI` `Static analysis` |
+| **[SafeBite](https://github.com/aditya4232/SafeBite-V1)** | Food-analysis platform with Gemini nutrition insights, OCR label scanning, Firebase authentication, and real-time sync. | `Flask` `Node.js` `MongoDB` `Firebase` |
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=aditya4232&layout=compact&theme=radical&hide_border=true&langs_count=8"
-    height="165"
-    alt="Top Languages"
-  />
-</p>
+<p align="right"><a href="https://github.com/aditya4232?tab=repositories">Explore all repositories →</a></p>
 
-> If you want, I can re-add the activity graph, but it’s often slow/unreliable.
+## `04` / Engineering toolkit
 
----
+| Layer | Tools & concepts |
+| :--- | :--- |
+| **Intelligence** | LangChain · LangGraph · CrewAI · RAG · MCP · tool calling · structured outputs · RAG evaluation |
+| **Models & data science** | PyTorch · scikit-learn · Hugging Face Transformers · SentenceTransformers · PEFT/LoRA · Ollama · Pandas · NumPy |
+| **Services & data** | Python · FastAPI · Flask · Node.js · REST · WebSockets · PostgreSQL · MongoDB · SQL Server · FAISS · ChromaDB |
+| **AWS** | Lambda · S3 · EC2 · Cognito · Amplify · SQS · CloudWatch · SAM · CloudFormation |
+| **Delivery & security** | GitHub Actions · CI/CD · Docker · infrastructure as code · OAuth 2.0 · JWT · RBAC |
+| **Also in the toolkit** | Java · JavaScript · Git · Postman · npm · PyPI · GCP & Kubernetes fundamentals |
 
-## // RUNTIME.LOGS
+## `05` / Experience log
 
-**AI Intern** | *Jan 2026 – Present*  
-- Developing autonomous AI agents and integrating LLM capabilities into scalable systems.
+**Junior AI Cloud Engineer · InnovyQ**<br/>
+`Sep 2026 → Present`
 
-**Full Stack Developer Intern** | *DRDO (Ministry of Defence, Govt. of India)* | *Jul 2025 – Sept 2025*  
-- Built the IOD dashboard with **React**, **Tailwind CSS**, **Node.js**, and **MongoDB**.  
-- Designed an **offline-first sync** workflow using **service workers** for disconnected field operations.  
-- Implemented **role-based access control** for secure, real-time multi-user usage.
+- Deploy AI-powered features on AWS and implement Cognito sessions, OAuth integrations, and authenticated serverless APIs.
+- Implement Slack connection flows and support history ingestion with **Lambda, SQS, and S3**.
+- Troubleshoot **SAM/CloudFormation** deployments, monitor runtime health in **CloudWatch**, and maintain release checks and technical documentation.
 
-**Software Engineering Intern** | *Vestrics Solutions* | *Apr 2025 – Jun 2025*  
-- Developed REST APIs for an enterprise HRMS using **VB.NET** and **SQL Server**.  
-- Improved query latency by **~40%** through indexing + query optimization.  
-- Automated bulk processing pipelines for CSV/Excel ingestion.
+**AI Engineer Intern · ScriptBees Pvt Ltd**<br/>
+`Jan 2026 → Jun 2026`
 
----
+- Built a RAG chatbot over **100+ enterprise documents** using LangChain, Ollama, FAISS/ChromaDB, and FastAPI, with source-cited answers.
+- Developed document-processing workflows and **Talent Radar**, a candidate-matching dashboard.
+- Integrated LLM providers with structured output parsing and streaming responses.
 
-## // CORE.MODULES
+**Full Stack Developer Intern · DRDO, Ministry of Defence**<br/>
+`Jul 2025 → Sep 2025`
 
-<p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=py,js,ts,react,nextjs,nodejs,fastapi,flask,html,css,tailwind,aws,gcp,docker,kubernetes,linux,git,github,sqlite,mongodb,postgres,firebase&theme=dark&perline=12"
-    alt="Skill icons"
-  />
-</p>
+- Built an IOD operations dashboard with **Node.js and MongoDB**, supporting offline field workflows through Service Workers.
+- Implemented multi-user authentication, **RBAC**, and real-time data synchronization.
 
----
+<details>
+<summary><b>Earlier experience</b></summary>
 
-## // DEPLOYED.SYSTEMS
+**Software Engineering Intern · Vestrics Solutions** · `Apr 2025 → Jun 2025`<br/>
+Built enterprise HRMS APIs with VB.NET and SQL Server; worked on query optimization and bulk CSV/Excel processing.
 
-<table>
-  <tr>
-    <th align="left" width="30%">System</th>
-    <th align="left" width="55%">Description</th>
-    <th align="left" width="15%">Stack</th>
-  </tr>
+</details>
 
-  <tr>
-    <td><b><a href="https://github.com/aditya4232/ALD-01">ALD-01</a></b></td>
-    <td>Privacy-first local AI agent system; integrates with 10+ providers via specialized reasoning workflows.</td>
-    <td><code>Python</code> <code>FastAPI</code></td>
-  </tr>
+## `06` / Foundations & milestones
 
-  <tr>
-    <td><b><a href="https://github.com/aditya4232/DYSC-Agent">DYSC-Agent</a></b></td>
-    <td>Globally installable CLI for static security analysis with AI-assisted remediations.</td>
-    <td><code>Node.js</code> <code>CLI</code></td>
-  </tr>
+**B.Tech · Computer Science Engineering**<br/>
+ICFAI Foundation for Higher Education, Hyderabad · **Jul 2022 – Sep 2026**
 
-  <tr>
-    <td><b><a href="https://github.com/aditya4232/Intelligent-document-system">Intelligent-document-system</a></b></td>
-    <td>RAG-based document processing engine for compliance analysis using vector similarity search.</td>
-    <td><code>Python</code> <code>RAG</code></td>
-  </tr>
-
-  <tr>
-    <td><b><a href="https://github.com/aditya4232/CodeGenesis">CodeGenesis</a></b></td>
-    <td>Text-to-app platform orchestrating parallel agent “swarms” to generate complete codebases.</td>
-    <td><code>Next.js</code> <code>Agents</code></td>
-  </tr>
-
-  <tr>
-    <td><b><a href="https://github.com/aditya4232/FineTuneLite">FineTuneLite</a></b></td>
-    <td>CPU-friendly LLM fine-tuning environment using PEFT/LoRA (no GPU dependency).</td>
-    <td><code>LLM</code> <code>LoRA</code></td>
-  </tr>
-
-  <tr>
-    <td><b><a href="https://github.com/aditya4232/SafeBite-V1">SafeBite-V1</a></b></td>
-    <td>Nutrition analysis + OCR scanning engine for real-time food safety insights.</td>
-    <td><code>React</code> <code>Flask</code></td>
-  </tr>
-</table>
+- **Google AI Essentials** · 2026
+- **AWS Machine Learning Foundations** · 2025
+- **AWS Cloud 101** · 2025
+- **Introduction to Kubernetes (LFS158)** · Linux Foundation · 2025
+- **Smart India Hackathon 2024** · National Certificate
+- **ISRO Space Technology Training** · 2024
 
 ---
 
-## // CERTIFICATIONS
-
-- **AWS Machine Learning Foundations**
-- **Kubernetes (LFS158) — Linux Foundation**
-- **AWS Educate Cloud 101**
-
-<p align="center">
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=aditya4232&icon=0&color=6" alt="Profile Views" />
-  </a>
-</p>
+<p align="center"><code>Curious about the model. Serious about the system.</code><br/><br/>
+<a href="https://linkedin.com/in/adityashenvi">LinkedIn</a> · <a href="https://adityacuz.dev">Portfolio</a> · <a href="mailto:adityashenvi2050@gmail.com">Let's build something useful</a></p>
