@@ -29,25 +29,22 @@ My work spans the full path from **chunking and embeddings** to **agent orchestr
 
 ## `02` / Systems thinking
 
-```mermaid
-flowchart LR
-    A[Documents & enterprise sources] --> B[Ingest & chunk]
-    B --> C[Embeddings & retrieval]
-    C --> D[LLM & agent orchestration]
-    D --> E[Source-cited answers & tool actions]
-    F[Authentication & access controls] -.-> A
-    F -.-> D
-    D -.-> G[Evaluation & observability]
-    style A fill:#0d1526,stroke:#38bdf8,color:#e2e8f0
-    style B fill:#0d1526,stroke:#38bdf8,color:#e2e8f0
-    style C fill:#0d1526,stroke:#a78bfa,color:#e2e8f0
-    style D fill:#17203b,stroke:#a78bfa,color:#e2e8f0
-    style E fill:#0d2527,stroke:#34d399,color:#e2e8f0
-    style F fill:#0d1526,stroke:#64748b,color:#cbd5e1
-    style G fill:#0d1526,stroke:#64748b,color:#cbd5e1
-```
+<p align="center"><img src="./assets/system-map.svg" width="1200" alt="Animated AI architecture: documents, ingestion and embeddings, vector retrieval, model and tool orchestration, and cited streaming responses. Authentication, evaluation, and monitoring support the workflow." /></p>
 
-*The systems I enjoy building: grounded retrieval, deliberate tool use, and observable cloud services.*
+<details>
+<summary><b>Under the hood — the engineering decisions I care about</b></summary>
+
+| Boundary | Technical focus |
+| :--- | :--- |
+| **Knowledge → context** | Chunking, embeddings, similarity search, and preserving source metadata for citations. |
+| **Model → application** | Tool calling, structured output parsing, provider integration, and streamed responses. |
+| **Integration → cloud** | OAuth connection flows, Cognito sessions, authenticated APIs, and Lambda/SQS/S3 ingestion. |
+| **Code → operation** | SAM/CloudFormation deployment troubleshooting, CloudWatch runtime monitoring, and release checks. |
+| **Model → adaptation** | PEFT/LoRA experiments for small models, with CPU-based local training and chat. |
+
+</details>
+
+<p align="center"><img src="./assets/project-index.svg" width="1200" alt="Open-source project highlights: ALD-01 local agents, CodeGenesis text-to-app, FineTuneLite model adaptation." /></p>
 
 ## `03` / Selected engineering
 

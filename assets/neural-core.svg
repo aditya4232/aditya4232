@@ -9,15 +9,20 @@
 <rect width="1200" height="420" rx="20" fill="#080d18"/>
 <rect x="1" y="1" width="1198" height="418" rx="20" fill="url(#grid)" stroke="#243248"/>
 <ellipse cx="960" cy="200" rx="270" ry="235" fill="url(#halo)"/>
+<g opacity=".65">
+<circle cx="950" cy="190" r="153" fill="none" stroke="#253652" stroke-dasharray="3 12"/>
+<circle cx="950" cy="190" r="170" fill="none" stroke="#38bdf8" stroke-opacity=".35" stroke-dasharray="95 975"><animateTransform attributeName="transform" type="rotate" from="0 950 190" to="360 950 190" dur="24s" repeatCount="indefinite"/></circle>
+<circle cx="950" cy="190" r="153" fill="none" stroke="#a78bfa" stroke-dasharray="35 927"><animateTransform attributeName="transform" type="rotate" from="360 950 190" to="0 950 190" dur="18s" repeatCount="indefinite"/></circle>
+</g>
 <g font-family="monospace">
 <circle cx="36" cy="32" r="5" fill="#fb7185"/><circle cx="54" cy="32" r="5" fill="#fbbf24"/><circle cx="72" cy="32" r="5" fill="#34d399"/>
 <text x="96" y="37" font-size="12" fill="#94a3b8">aditya@neural-core ~ /profile</text>
 <text x="1164" y="37" text-anchor="end" font-size="11" fill="#34d399">BUILD • CONNECT • DEPLOY</text>
 <path d="M24 55H1176" stroke="#243248"/>
-<text x="42" y="107" font-size="13" letter-spacing="3" fill="#38bdf8">APPLIED INTELLIGENCE / HUMAN CURIOSITY</text>
+<text x="42" y="107" font-size="13" letter-spacing="3" fill="#38bdf8">LLM SYSTEMS / AGENT WORKFLOWS / CLOUD</text>
 <text x="38" y="179" font-size="57" font-weight="700" letter-spacing="-2" fill="#f1f5f9">ADITYA SHENVI<tspan fill="#38bdf8">_<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.45;.5;1" dur="1.6s" repeatCount="indefinite"/></tspan></text>
 <text x="42" y="219" font-size="19" fill="#c4b5fd">AI / ML &amp; CLOUD ENGINEER</text>
-<text x="42" y="259" font-size="15" fill="#94a3b8">From knowledge to answers. From agents to systems.</text>
+<text x="42" y="259" font-size="15" fill="#94a3b8">Retrieval. Reasoning. Real-world integration.</text>
 <rect x="42" y="284" width="328" height="34" rx="7" fill="#0d2430" stroke="#164e63"/>
 <circle cx="59" cy="301" r="4" fill="#34d399"><animate attributeName="opacity" values="1;.35;1" dur="3s" repeatCount="indefinite"/></circle>
 <text x="73" y="306" font-size="12" fill="#a7f3d0">Junior AI Cloud Engineer</text>
@@ -59,5 +64,6 @@
 <circle cx="900" cy="270" r="14" fill="#0b162b" stroke="#7c83d8"/><circle cx="900" cy="270" r="4" fill="#67e8f9"/>
 <circle cx="1000" cy="150" r="14" fill="#0b162b" stroke="#7c83d8"/><circle cx="1000" cy="150" r="4" fill="#67e8f9"/>
 <circle cx="1000" cy="230" r="14" fill="#0b162b" stroke="#7c83d8"/><circle cx="1000" cy="230" r="4" fill="#67e8f9"/>
+<circle cx="1100" cy="190" r="16" fill="none" stroke="#34d399"><animate attributeName="r" values="16;30" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3s" repeatCount="indefinite"/></circle>
 <circle cx="1100" cy="190" r="14" fill="#0b162b" stroke="#7c83d8"/><circle cx="1100" cy="190" r="4" fill="#67e8f9"/>
 <text x="950" y="325" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="11" letter-spacing="2">INPUT → REASON → ACTION</text></svg>
