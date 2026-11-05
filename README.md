@@ -2,7 +2,7 @@
 
 <img src="./assets/banner.svg" width="100%" alt="Aditya Shenvi - AI/ML and Cloud Engineer. Animated neural network banner." />
 
-<a href="https://github.com/aditya4232"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=760&height=40&lines=RAG+pipelines+that+cite+their+sources;Agent+workflows+with+LangGraph+%26+MCP;Serverless+AI+APIs+on+AWS;From+prototype+to+production" alt="Typing intro" /></a>
+<img src="./assets/typing.svg" width="760" alt="RAG pipelines that cite their sources / Agent workflows with LangGraph and MCP / Serverless AI APIs on AWS / From prototype to production" />
 
 <br/>
 
@@ -56,8 +56,8 @@ Serverless APIs, authenticated integrations, infrastructure as code and monitori
 
 <div align="center">
 
-<a href="https://github.com/aditya4232?tab=repositories"><img src="https://streak-stats.demolab.com?user=aditya4232&theme=tokyonight&hide_border=true&border_radius=12&date_format=j%20M%5B%20Y%5D" height="165" alt="GitHub streak" /></a>
-<a href="https://github.com/aditya4232?tab=repositories"><img src="https://github-readme-stats.vercel.app/api?username=aditya4232&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true&include_all_commits=true&rank_icon=github" height="165" alt="GitHub stats" /></a>
+<a href="https://github.com/aditya4232?tab=repositories"><img src="https://streak-stats.demolab.com?user=aditya4232&theme=tokyonight&hide_border=true&border_radius=12&date_format=j%20M%5B%20Y%5D" height="170" alt="GitHub streak" /></a>
+<img src="./profile-summary-card-output/tokyonight/3-stats.svg" height="170" alt="GitHub stats" />
 
 </div>
 
@@ -134,7 +134,8 @@ Serverless APIs, authenticated integrations, infrastructure as code and monitori
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aditya4232&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8" height="165" alt="Top languages" />
+<img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" height="190" alt="Repos per language" />
+<img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" height="190" alt="Most committed languages" />
 
 </div>
 
@@ -194,7 +195,8 @@ Serverless APIs, authenticated integrations, infrastructure as code and monitori
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/aditya4232/aditya4232/output/github-snake-dark.svg" />
 </picture>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aditya4232&theme=tokyo-night&hide_border=true&area=true&radius=12&custom_title=Contribution%20graph" width="100%" alt="Contribution graph" />
+<img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" height="190" alt="Profile details" />
+<img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" height="190" alt="Productive time" />
 
 </div>
 
