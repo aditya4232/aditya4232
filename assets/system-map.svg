@@ -1,23 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-<title id="title">Anatomy of an AI application</title><desc id="desc">Animated conceptual architecture. Knowledge flows from documents through chunking to a vector index. Queries retrieve context for model and tool orchestration, producing cited responses. Authentication, evaluation, and monitoring support the system.</desc>
-<defs><linearGradient id="flow"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r=".7" fill="#243248"/></pattern></defs>
-<rect x="1" y="1" width="1198" height="428" rx="18" fill="#080d18" stroke="#243248"/><rect x="1" y="1" width="1198" height="428" rx="18" fill="url(#dots)"/>
-<g font-family="monospace"><text x="32" y="35" fill="#38bdf8" font-size="12" letter-spacing="2">SYSTEM MAP / FROM KNOWLEDGE TO ACTION</text><text x="1168" y="35" text-anchor="end" fill="#94a3b8" font-size="11">CONCEPTUAL ARCHITECTURE</text>
-<text x="32" y="84" fill="#94a3b8" font-size="11" letter-spacing="2">01 / KNOWLEDGE PATH</text>
-<text x="32" y="234" fill="#94a3b8" font-size="11" letter-spacing="2">02 / REQUEST PATH</text>
-<path d="M252 140H328" fill="none" stroke="#334155" stroke-width="2"/><circle r="3.5" fill="#67e8f9"><animateMotion path="M252 140H328" dur="4s" begin="0s" repeatCount="indefinite"/></circle>
-<path d="M548 140H624" fill="none" stroke="#334155" stroke-width="2"/><circle r="3.5" fill="#67e8f9"><animateMotion path="M548 140H624" dur="4s" begin="0.7s" repeatCount="indefinite"/></circle>
-<path d="M252 290H328" fill="none" stroke="#334155" stroke-width="2"/><circle r="3.5" fill="#67e8f9"><animateMotion path="M252 290H328" dur="4s" begin="0.2s" repeatCount="indefinite"/></circle>
-<path d="M548 290H624" fill="none" stroke="#334155" stroke-width="2"/><circle r="3.5" fill="#67e8f9"><animateMotion path="M548 290H624" dur="4s" begin="0.9s" repeatCount="indefinite"/></circle>
-<path d="M844 290H920" fill="none" stroke="#334155" stroke-width="2"/><circle r="3.5" fill="#67e8f9"><animateMotion path="M844 290H920" dur="4s" begin="1.6s" repeatCount="indefinite"/></circle>
-<path d="M734 182V212H438V248" fill="none" stroke="#334155" stroke-width="2"/><circle r="3.5" fill="#67e8f9"><animateMotion path="M734 182V212H438V248" dur="4s" begin="1s" repeatCount="indefinite"/></circle>
-<rect x="32" y="98" width="220" height="84" rx="10" fill="#101a2b" stroke="#334155"/><path d="M44 99H107" stroke="#38bdf8" stroke-width="2"/><text x="48" y="124" fill="#e2e8f0" font-size="14" font-weight="bold">SOURCE MATERIAL</text><text x="48" y="147" fill="#38bdf8" font-size="11">Documents / enterprise data</text><text x="48" y="166" fill="#94a3b8" font-size="10">Content + source metadata</text>
-<rect x="328" y="98" width="220" height="84" rx="10" fill="#101a2b" stroke="#334155"/><path d="M340 99H403" stroke="#38bdf8" stroke-width="2"/><text x="344" y="124" fill="#e2e8f0" font-size="14" font-weight="bold">INGEST &amp; CHUNK</text><text x="344" y="147" fill="#38bdf8" font-size="11">Parse / split / embed</text><text x="344" y="166" fill="#94a3b8" font-size="10">LangChain · SentenceTransformers</text>
-<rect x="624" y="98" width="220" height="84" rx="10" fill="#101a2b" stroke="#334155"/><path d="M636 99H699" stroke="#a78bfa" stroke-width="2"/><text x="640" y="124" fill="#e2e8f0" font-size="14" font-weight="bold">VECTOR INDEX</text><text x="640" y="147" fill="#a78bfa" font-size="11">Similarity search</text><text x="640" y="166" fill="#94a3b8" font-size="10">FAISS · ChromaDB</text>
-<text x="1038" y="133" fill="#a78bfa" font-size="11" text-anchor="middle">CONTEXT</text><text x="1038" y="153" fill="#94a3b8" font-size="10" text-anchor="middle">source references</text>
-<rect x="32" y="248" width="220" height="84" rx="10" fill="#101a2b" stroke="#334155"/><path d="M44 249H107" stroke="#38bdf8" stroke-width="2"/><text x="48" y="274" fill="#e2e8f0" font-size="14" font-weight="bold">USER REQUEST</text><text x="48" y="297" fill="#38bdf8" font-size="11">Authenticated API boundary</text><text x="48" y="316" fill="#94a3b8" font-size="10">FastAPI · OAuth 2.0 / JWT</text>
-<rect x="328" y="248" width="220" height="84" rx="10" fill="#101a2b" stroke="#334155"/><path d="M340 249H403" stroke="#38bdf8" stroke-width="2"/><text x="344" y="274" fill="#e2e8f0" font-size="14" font-weight="bold">RETRIEVE CONTEXT</text><text x="344" y="297" fill="#38bdf8" font-size="11">Query embeddings / search</text><text x="344" y="316" fill="#94a3b8" font-size="10">Relevant document chunks</text>
-<rect x="624" y="248" width="220" height="84" rx="10" fill="#101a2b" stroke="#334155"/><path d="M636 249H699" stroke="#a78bfa" stroke-width="2"/><text x="640" y="274" fill="#e2e8f0" font-size="14" font-weight="bold">MODEL + TOOLS</text><text x="640" y="297" fill="#a78bfa" font-size="11">Orchestrate / call / parse</text><text x="640" y="316" fill="#94a3b8" font-size="10">LangGraph · LLM integrations</text>
-<rect x="920" y="248" width="220" height="84" rx="10" fill="#101a2b" stroke="#334155"/><path d="M932 249H995" stroke="#34d399" stroke-width="2"/><text x="936" y="274" fill="#e2e8f0" font-size="14" font-weight="bold">RESPONSE</text><text x="936" y="297" fill="#34d399" font-size="11">Stream / cite / return</text><text x="936" y="316" fill="#94a3b8" font-size="10">Structured outputs + citations</text>
-<path d="M32 362H1168" stroke="#243248"/>
-<text x="32" y="392" fill="#94a3b8" font-size="11">CROSS-CUTTING</text><text x="230" y="392" fill="#a7f3d0" font-size="11">AUTH &amp; ACCESS</text><text x="480" y="392" fill="#c4b5fd" font-size="11">RAG EVALUATION</text><text x="750" y="392" fill="#7dd3fc" font-size="11">LOGS &amp; MONITORING</text><circle cx="1150" cy="388" r="4" fill="#34d399"><animate attributeName="opacity" values="1;.3;1" dur="3s" repeatCount="indefinite"/></circle></g></svg>
+<svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d" font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,'DejaVu Sans Mono',monospace">
+<title id="t">AI system map</title>
+<desc id="d">Animated pipeline from documents to cited streaming answers: ingest, embed, index, orchestrate, respond. Auth, evaluation and observability support every stage.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse"><stop stop-color="#060A14"/><stop offset="1" stop-color="#0F1634"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#94A3B8" fill-opacity=".14"/></pattern>
+<clipPath id="round"><rect width="1200" height="440" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#round)">
+<rect width="1200" height="440" fill="url(#bg)"/><rect width="1200" height="440" fill="url(#dots)"/>
+<text x="32" y="48" font-size="12" fill="#38BDF8" letter-spacing="4">SYSTEM MAP  /  DOCUMENTS TO CITED ANSWERS</text>
+<text x="1168" y="48" font-size="11" fill="#64748B" text-anchor="end" letter-spacing="1">solid = data flow    dashed = supporting concerns</text>
+<g><rect x="30" y="150" width="160" height="84" rx="14" fill="#0F172A" stroke="#38BDF8" stroke-opacity=".6"/>
+<rect x="30" y="150" width="160" height="84" rx="14" fill="#38BDF8" fill-opacity=".07"/>
+<text x="46" y="174" font-size="11" fill="#38BDF8" letter-spacing="2">01</text>
+<text x="46" y="198" font-size="15" font-weight="700" fill="#E2E8F0">Sources</text>
+<text x="46" y="218" font-size="11" fill="#94A3B8">PDF . DOCX . Slack</text></g>
+<line x1="194" y1="192" x2="216" y2="192" stroke="#475569" stroke-width="2" stroke-dasharray="5 5"><animate attributeName="stroke-dashoffset" from="10" to="0" dur=".9s" repeatCount="indefinite"/></line><polygon points="222,192 215,188 215,196" fill="#64748B"/><circle r="3.2" fill="#38BDF8"><animateMotion dur="1.8s" begin="0.0s" repeatCount="indefinite" path="M194 192 L222 192"/></circle><g><rect x="226" y="150" width="160" height="84" rx="14" fill="#0F172A" stroke="#38BDF8" stroke-opacity=".6"/>
+<rect x="226" y="150" width="160" height="84" rx="14" fill="#38BDF8" fill-opacity=".07"/>
+<text x="242" y="174" font-size="11" fill="#38BDF8" letter-spacing="2">02</text>
+<text x="242" y="198" font-size="15" font-weight="700" fill="#E2E8F0">Ingest</text>
+<text x="242" y="218" font-size="11" fill="#94A3B8">Lambda . SQS . S3</text></g>
+<line x1="390" y1="192" x2="412" y2="192" stroke="#475569" stroke-width="2" stroke-dasharray="5 5"><animate attributeName="stroke-dashoffset" from="10" to="0" dur=".9s" repeatCount="indefinite"/></line><polygon points="418,192 411,188 411,196" fill="#64748B"/><circle r="3.2" fill="#38BDF8"><animateMotion dur="1.8s" begin="-0.3s" repeatCount="indefinite" path="M390 192 L418 192"/></circle><g><rect x="422" y="150" width="160" height="84" rx="14" fill="#0F172A" stroke="#818CF8" stroke-opacity=".6"/>
+<rect x="422" y="150" width="160" height="84" rx="14" fill="#818CF8" fill-opacity=".07"/>
+<text x="438" y="174" font-size="11" fill="#818CF8" letter-spacing="2">03</text>
+<text x="438" y="198" font-size="15" font-weight="700" fill="#E2E8F0">Embed</text>
+<text x="438" y="218" font-size="11" fill="#94A3B8">SBERT embeddings</text></g>
+<line x1="586" y1="192" x2="608" y2="192" stroke="#475569" stroke-width="2" stroke-dasharray="5 5"><animate attributeName="stroke-dashoffset" from="10" to="0" dur=".9s" repeatCount="indefinite"/></line><polygon points="614,192 607,188 607,196" fill="#64748B"/><circle r="3.2" fill="#818CF8"><animateMotion dur="1.8s" begin="-0.6s" repeatCount="indefinite" path="M586 192 L614 192"/></circle><g><rect x="618" y="150" width="160" height="84" rx="14" fill="#0F172A" stroke="#818CF8" stroke-opacity=".6"/>
+<rect x="618" y="150" width="160" height="84" rx="14" fill="#818CF8" fill-opacity=".07"/>
+<text x="634" y="174" font-size="11" fill="#818CF8" letter-spacing="2">04</text>
+<text x="634" y="198" font-size="15" font-weight="700" fill="#E2E8F0">Index</text>
+<text x="634" y="218" font-size="11" fill="#94A3B8">FAISS . ChromaDB</text></g>
+<line x1="782" y1="192" x2="804" y2="192" stroke="#475569" stroke-width="2" stroke-dasharray="5 5"><animate attributeName="stroke-dashoffset" from="10" to="0" dur=".9s" repeatCount="indefinite"/></line><polygon points="810,192 803,188 803,196" fill="#64748B"/><circle r="3.2" fill="#818CF8"><animateMotion dur="1.8s" begin="-0.9s" repeatCount="indefinite" path="M782 192 L810 192"/></circle><g><rect x="814" y="150" width="160" height="84" rx="14" fill="#0F172A" stroke="#C084FC" stroke-opacity=".6"/>
+<rect x="814" y="150" width="160" height="84" rx="14" fill="#C084FC" fill-opacity=".07"/>
+<text x="830" y="174" font-size="11" fill="#C084FC" letter-spacing="2">05</text>
+<text x="830" y="198" font-size="15" font-weight="700" fill="#E2E8F0">Orchestrate</text>
+<text x="830" y="218" font-size="11" fill="#94A3B8">LangGraph + tools</text></g>
+<line x1="978" y1="192" x2="1000" y2="192" stroke="#475569" stroke-width="2" stroke-dasharray="5 5"><animate attributeName="stroke-dashoffset" from="10" to="0" dur=".9s" repeatCount="indefinite"/></line><polygon points="1006,192 999,188 999,196" fill="#64748B"/><circle r="3.2" fill="#C084FC"><animateMotion dur="1.8s" begin="-1.2s" repeatCount="indefinite" path="M978 192 L1006 192"/></circle><g><rect x="1010" y="150" width="160" height="84" rx="14" fill="#0F172A" stroke="#34D399" stroke-opacity=".6"/>
+<rect x="1010" y="150" width="160" height="84" rx="14" fill="#34D399" fill-opacity=".07"/>
+<text x="1026" y="174" font-size="11" fill="#34D399" letter-spacing="2">06</text>
+<text x="1026" y="198" font-size="15" font-weight="700" fill="#E2E8F0">Respond</text>
+<text x="1026" y="218" font-size="11" fill="#94A3B8">FastAPI . SSE</text></g>
+<line x1="230" y1="320" x2="230" y2="244" stroke="#FBBF24" stroke-opacity=".7" stroke-dasharray="3 5"><animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.6s" repeatCount="indefinite"/></line><circle cx="230" cy="244" r="3.5" fill="#FBBF24"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle><g><rect x="60" y="320" width="340" height="76" rx="14" fill="#0F172A" stroke="#FBBF24" stroke-opacity=".6"/>
+<rect x="60" y="320" width="340" height="76" rx="14" fill="#FBBF24" fill-opacity=".07"/>
+<text x="76" y="344" font-size="11" fill="#FBBF24" letter-spacing="2">SUPPORTS EVERY STAGE</text>
+<text x="76" y="368" font-size="15" font-weight="700" fill="#E2E8F0">Auth + access</text>
+<text x="76" y="388" font-size="11" fill="#94A3B8">Cognito . OAuth 2.0 . JWT . RBAC</text></g>
+<line x1="600" y1="320" x2="600" y2="244" stroke="#F472B6" stroke-opacity=".7" stroke-dasharray="3 5"><animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.6s" repeatCount="indefinite"/></line><circle cx="600" cy="244" r="3.5" fill="#F472B6"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle><g><rect x="430" y="320" width="340" height="76" rx="14" fill="#0F172A" stroke="#F472B6" stroke-opacity=".6"/>
+<rect x="430" y="320" width="340" height="76" rx="14" fill="#F472B6" fill-opacity=".07"/>
+<text x="446" y="344" font-size="11" fill="#F472B6" letter-spacing="2">SUPPORTS EVERY STAGE</text>
+<text x="446" y="368" font-size="15" font-weight="700" fill="#E2E8F0">Evaluation</text>
+<text x="446" y="388" font-size="11" fill="#94A3B8">RAG evals . regression checks</text></g>
+<line x1="970" y1="320" x2="970" y2="244" stroke="#2DD4BF" stroke-opacity=".7" stroke-dasharray="3 5"><animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.6s" repeatCount="indefinite"/></line><circle cx="970" cy="244" r="3.5" fill="#2DD4BF"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle><g><rect x="800" y="320" width="340" height="76" rx="14" fill="#0F172A" stroke="#2DD4BF" stroke-opacity=".6"/>
+<rect x="800" y="320" width="340" height="76" rx="14" fill="#2DD4BF" fill-opacity=".07"/>
+<text x="816" y="344" font-size="11" fill="#2DD4BF" letter-spacing="2">SUPPORTS EVERY STAGE</text>
+<text x="816" y="368" font-size="15" font-weight="700" fill="#E2E8F0">Observability</text>
+<text x="816" y="388" font-size="11" fill="#94A3B8">CloudWatch . logs . release checks</text></g>
+<rect y="436" width="1200" height="4" fill="#818CF8" fill-opacity=".6"/></g>
+<rect x=".5" y=".5" width="1199" height="439" rx="17.5" stroke="#1E293B"/>
+</svg>
