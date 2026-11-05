@@ -14,10 +14,11 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Generate cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release/v2
+        uses: vn7n24fzkq/github-profile-summary-cards@v0.13.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          THEMES: "tokyonight"
-          UTC_OFFSET: 5.5
+          THEME: "tokyonight"
+          TIME_ZONE: "Asia/Kolkata"
+          ANIMATION: "stagger"
