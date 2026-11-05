@@ -60,7 +60,7 @@ HRMS APIs in VB.NET and SQL Server, query optimisation, and bulk CSV/Excel proce
 
 ### Toolkit
 
-| | |
+| Area | Tools |
 | :-- | :-- |
 | **AI** | LangChain, LangGraph, CrewAI, MCP, RAG and retrieval evaluation, tool calling, structured outputs |
 | **Models** | PyTorch, Hugging Face Transformers, Sentence Transformers, PEFT/LoRA, Ollama, scikit-learn |
