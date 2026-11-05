@@ -5,13 +5,13 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/adityashenvi"><img src="https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect on LinkedIn" /></a>
-  <a href="https://adityacuz.dev"><img src="https://img.shields.io/badge/Portfolio-EXPLORE-0891B2?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Explore my portfolio" /></a>
+  <a href="https://adityacuz.in"><img src="https://img.shields.io/badge/Portfolio-EXPLORE-0891B2?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Explore my portfolio" /></a>
   <a href="mailto:adityashenvi2050@gmail.com"><img src="https://img.shields.io/badge/Email-SAY_HELLO-7C3AED?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Aditya" /></a>
 </p>
 
 <p align="center"><b>I build LLM applications that retrieve knowledge, use tools, and connect to real workflows.</b><br/>Python at the core. FastAPI at the boundary. AWS in the cloud.</p>
 
-<p align="center"><a href="#01--profile">Profile</a> · <a href="#03--selected-engineering">Projects</a> · <a href="#04--engineering-toolkit">Stack</a> · <a href="#05--professional-experience">Experience</a></p>
+<p align="center"><a href="#01--profile">Profile</a> · <a href="#03--selected-engineering">Projects</a> · <a href="#04--currently-building">Building</a> · <a href="#05--engineering-toolkit">Stack</a> · <a href="#06--professional-experience">Experience</a></p>
 
 ## `01` / Profile
 
@@ -51,19 +51,29 @@ My work spans the full path from **chunking and embeddings** to **agent orchestr
 **Local-first agents → multi-agent generation → model customization**<br/>
 Three complementary directions in my open-source work: running assistants locally, coordinating agents to build applications, and adapting small models on consumer hardware.
 
-
 | Project | What I built | Engineering focus |
 | :--- | :--- | :--- |
 | **[ALD-01](https://github.com/aditya4232/ALD-01)** | Local AI agent system with **5 specialized agents**, **10+ LLM integrations**, provider failover, and a streaming dashboard. Published on npm and PyPI. | `Python` `FastAPI` `Ollama` `LangChain` |
 | **[CodeGenesis](https://github.com/aditya4232/CodeGenesis)** | Multi-agent text-to-app platform that generates full-stack application code from natural-language prompts. | `LangChain` `LangGraph` `OpenRouter` `FastAPI` |
 | **[FineTuneLite](https://github.com/aditya4232/FineTuneLite)** | Local fine-tuning studio for **small language models**, with CPU-based PEFT/LoRA training and chat. | `Python` `PEFT` `LoRA` `Transformers` |
 | **[Intelligent Document System](https://github.com/aditya4232/Intelligent-document-system)** | Document Q&A for consulting and staffing workflows, with source citations and confidence scores. | `RAG` `Embeddings` `Document Q&A` |
+| **[JEV-feedbackchat](https://github.com/aditya4232/JEV-feedbackchat)** | Reusable Python middleware that classifies user and assistant messages, returns structured feedback, and adapts the instructions an agent generator consumes. | `Python` `Structured outputs` `Feedback loops` |
 | **[DYSC-Agent](https://github.com/aditya4232/DYSC-Agent)** | Security analysis CLI combining static analysis, AI-assisted fix suggestions, and an interactive tool-calling REPL. | `Node.js` `CLI` `Static analysis` |
 | **[SafeBite](https://github.com/aditya4232/SafeBite-V1)** | Food-analysis platform with Gemini nutrition insights, OCR label scanning, Firebase authentication, and real-time sync. | `Flask` `Node.js` `MongoDB` `Firebase` |
 
 <p align="right"><a href="https://github.com/aditya4232?tab=repositories">Explore all repositories →</a></p>
 
-## `04` / Engineering toolkit
+## `04` / Currently building
+
+Early-stage projects, currently in the design phase.
+
+| Project | Idea |
+| :--- | :--- |
+| **[agent-workspace](https://github.com/aditya4232/agent-workspace)** | Agentic chat you can inspect: bring your own model, trace every tool call, delete your data. |
+| **[agent-labs](https://github.com/aditya4232/agent-labs)** | Reproducible experiments on agent reliability and safety: Trace Lab, Break My Agent, RAG vs Memory. |
+| **[clemo](https://github.com/aditya4232/clemo)** | Small, free, browser-first tools that each do one thing well. |
+
+## `05` / Engineering toolkit
 
 | Layer | Tools & concepts |
 | :--- | :--- |
@@ -74,7 +84,7 @@ Three complementary directions in my open-source work: running assistants locall
 | **Delivery & security** | GitHub Actions · CI/CD · Docker · infrastructure as code · OAuth 2.0 · JWT · RBAC |
 | **Languages & tooling** | Java · JavaScript · Git · Postman · npm · PyPI · GCP & Kubernetes fundamentals |
 
-## `05` / Professional experience
+## `06` / Professional experience
 
 **Junior AI Cloud Engineer**<br/>
 `Sep 2026 → Present`
@@ -114,10 +124,10 @@ Built enterprise HRMS APIs with VB.NET and SQL Server; worked on query optimizat
 
 </details>
 
-## `06` / Foundations & milestones
+## `07` / Foundations & milestones
 
 **B.Tech · Computer Science Engineering**<br/>
-ICFAI Foundation for Higher Education, Hyderabad · **Jul 2022 – Sep 2026**
+ICFAI Foundation for Higher Education, Hyderabad · **Jul 2022 – 2026**
 
 - **Google AI Essentials** · 2026
 - **AWS Machine Learning Foundations** · 2025
@@ -131,4 +141,4 @@ ICFAI Foundation for Higher Education, Hyderabad · **Jul 2022 – Sep 2026**
 <p align="center"><img src="./assets/signal-line.svg" width="1200" alt="Animated cyan and violet signal line" /></p>
 
 <p align="center"><b>Let's build useful AI, from retrieval to deployment.</b><br/><br/>
-<a href="https://linkedin.com/in/adityashenvi">LinkedIn</a> · <a href="https://adityacuz.dev">Portfolio</a> · <a href="mailto:adityashenvi2050@gmail.com">Let's build something useful</a></p>
+<a href="https://linkedin.com/in/adityashenvi">LinkedIn</a> · <a href="https://adityacuz.in">Portfolio</a> · <a href="mailto:adityashenvi2050@gmail.com">Let's build something useful</a></p>
