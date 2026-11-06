@@ -76,9 +76,9 @@ HRMS APIs in VB.NET and SQL Server, query optimisation, and bulk CSV/Excel proce
 #### Recently updated
 
 <!-- recent:start -->
-[agent-labs](https://github.com/aditya4232/agent-labs) <sub>Nov 5, 2026</sub><br><sub>Reproducible experiments on AI agent reliability and safety: Trace Lab...</sub>
+[clemo](https://github.com/aditya4232/clemo) <sub>Nov 6, 2026</sub><br><sub>Upload anything, get the job done: multi-step AI flows for paperwork...</sub>
 
-[clemo](https://github.com/aditya4232/clemo) <sub>Nov 5, 2026</sub><br><sub>Small free tools that do one thing: Redact, FormFit, GitHub Roast &...</sub>
+[agent-labs](https://github.com/aditya4232/agent-labs) <sub>Nov 5, 2026</sub><br><sub>Reproducible experiments on AI agent reliability and safety: Trace Lab...</sub>
 
 [agent-workspace](https://github.com/aditya4232/agent-workspace) <sub>Nov 5, 2026</sub><br><sub>Agentic chat you can inspect: bring your own model, trace every tool...</sub>
 
