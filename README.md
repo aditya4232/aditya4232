@@ -76,17 +76,17 @@ HRMS APIs in VB.NET and SQL Server, query optimisation, and bulk CSV/Excel proce
 #### Recently updated
 
 <!-- recent:start -->
-[agent-labs](https://github.com/aditya4232/agent-labs) <sub>Nov 8, 2026</sub><br><sub>Reproducible experiments on AI agent reliability and safety: Trace Lab...</sub>
-
-[clemo](https://github.com/aditya4232/clemo) <sub>Nov 8, 2026</sub><br><sub>Upload anything, get the job done: multi-step AI flows for paperwork...</sub>
-
-[agent-workspace](https://github.com/aditya4232/agent-workspace) <sub>Nov 8, 2026</sub><br><sub>Agentic chat you can inspect: bring your own model, trace every tool...</sub>
-
 [RAGTO](https://github.com/aditya4232/RAGTO) <sub>Oct 6, 2026</sub>
 
 [JEV-feedbackchat](https://github.com/aditya4232/JEV-feedbackchat) <sub>Oct 6, 2026</sub><br><sub>Reusable Python middleware for classifying complete user and assistant...</sub>
 
 [-AI-workbench-showcase](https://github.com/aditya4232/-AI-workbench-showcase) <sub>Aug 20, 2026</sub>
+
+[Video-Surveillance--Detection-Tracking-Event-Recognition](https://github.com/aditya4232/Video-Surveillance--Detection-Tracking-Event-Recognition) <sub>Aug 6, 2026</sub>
+
+[DSA-JAVA-PROJ1](https://github.com/aditya4232/DSA-JAVA-PROJ1) <sub>Jul 3, 2026</sub>
+
+[intraday-stock-analyzer-Stroz](https://github.com/aditya4232/intraday-stock-analyzer-Stroz) <sub>May 19, 2026</sub>
 <!-- recent:end -->
 
 </td>
